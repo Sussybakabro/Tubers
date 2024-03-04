@@ -1,0 +1,403 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local decalspam = Instance.new("TextButton")
+local music = Instance.new("TextButton")
+local tubers93sound = Instance.new("TextButton")
+local ro0lkiddtheme = Instance.new("TextButton")
+local tubershint = Instance.new("TextButton")
+local k00ptheme = Instance.new("TextButton")
+local c00lkiddsound = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local particles = Instance.new("TextButton")
+local skybox = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+
+--Properties:
+
+ScrollingFrame.Parent = game.StarterGui.ScreenGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 255, 127)
+ScrollingFrame.Position = UDim2.new(0.640807688, -394, 0.498483807, -63)
+ScrollingFrame.Size = UDim2.new(0, 191, 0, 274)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 395.760406)
+
+ImageLabel.Parent = ScrollingFrame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(-0.322115391, 0, 0.115333274, 0)
+ImageLabel.Size = UDim2.new(0, 331, 0, 184)
+ImageLabel.Image = "rbxassetid://10194557441"
+
+TextLabel.Parent = ImageLabel
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.20527859, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 26)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "tubers gui v2"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+decalspam.Name = "decal spam"
+decalspam.Parent = TextLabel
+decalspam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+decalspam.Position = UDim2.new(-0.0350000001, 0, 4.76923132, 0)
+decalspam.Size = UDim2.new(0, 96, 0, 34)
+decalspam.Font = Enum.Font.SourceSans
+decalspam.Text = "decal spam"
+decalspam.TextColor3 = Color3.fromRGB(0, 0, 0)
+decalspam.TextScaled = true
+decalspam.TextSize = 14.000
+decalspam.TextWrapped = true
+
+music.Name = "music"
+music.Parent = TextLabel
+music.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+music.Position = UDim2.new(-0.0349996947, 0, 6.88461399, 0)
+music.Size = UDim2.new(0, 96, 0, 34)
+music.Font = Enum.Font.SourceSans
+music.Text = "music"
+music.TextColor3 = Color3.fromRGB(0, 0, 0)
+music.TextScaled = true
+music.TextSize = 14.000
+music.TextWrapped = true
+
+tubers93sound.Name = "tubers 93 sound"
+tubers93sound.Parent = music
+tubers93sound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tubers93sound.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tubers93sound.Position = UDim2.new(-0.010416667, 0, 1.73529458, 0)
+tubers93sound.Size = UDim2.new(0, 179, 0, 50)
+tubers93sound.Font = Enum.Font.SourceSans
+tubers93sound.Text = "tubers sonud"
+tubers93sound.TextColor3 = Color3.fromRGB(0, 0, 0)
+tubers93sound.TextScaled = true
+tubers93sound.TextSize = 14.000
+tubers93sound.TextWrapped = true
+
+ro0lkiddtheme.Name = "ro0lkidd theme"
+ro0lkiddtheme.Parent = tubers93sound
+ro0lkiddtheme.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ro0lkiddtheme.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ro0lkiddtheme.Position = UDim2.new(0.00499999989, 0, 1.17999995, 0)
+ro0lkiddtheme.Size = UDim2.new(0, 176, 0, 50)
+ro0lkiddtheme.Font = Enum.Font.SourceSans
+ro0lkiddtheme.Text = "teamro0lkidd theme"
+ro0lkiddtheme.TextColor3 = Color3.fromRGB(0, 0, 0)
+ro0lkiddtheme.TextScaled = true
+ro0lkiddtheme.TextSize = 14.000
+ro0lkiddtheme.TextWrapped = true
+
+tubershint.Name = "tubers hint"
+tubershint.Parent = ro0lkiddtheme
+tubershint.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+tubershint.BorderColor3 = Color3.fromRGB(0, 0, 0)
+tubershint.Position = UDim2.new(0, 0, 1.38000035, 0)
+tubershint.Size = UDim2.new(0, 175, 0, 50)
+tubershint.Font = Enum.Font.SourceSans
+tubershint.Text = "tubers hint"
+tubershint.TextColor3 = Color3.fromRGB(0, 0, 0)
+tubershint.TextScaled = true
+tubershint.TextSize = 14.000
+tubershint.TextWrapped = true
+
+k00ptheme.Name = "k00p theme"
+k00ptheme.Parent = tubershint
+k00ptheme.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+k00ptheme.BorderColor3 = Color3.fromRGB(0, 0, 0)
+k00ptheme.Position = UDim2.new(-0.0250000004, 0, 1.32000029, 0)
+k00ptheme.Size = UDim2.new(0, 180, 0, 50)
+k00ptheme.Font = Enum.Font.SourceSans
+k00ptheme.Text = "k00p theme"
+k00ptheme.TextColor3 = Color3.fromRGB(0, 0, 0)
+k00ptheme.TextScaled = true
+k00ptheme.TextSize = 14.000
+k00ptheme.TextWrapped = true
+
+c00lkiddsound.Name = "c00lkidd sound"
+c00lkiddsound.Parent = k00ptheme
+c00lkiddsound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+c00lkiddsound.BorderColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddsound.BorderSizePixel = 0
+c00lkiddsound.Position = UDim2.new(0.0166666675, 0, 1.16000032, 0)
+c00lkiddsound.Size = UDim2.new(0, 176, 0, 50)
+c00lkiddsound.Font = Enum.Font.SourceSans
+c00lkiddsound.Text = "c00lkidd sound"
+c00lkiddsound.TextColor3 = Color3.fromRGB(0, 0, 0)
+c00lkiddsound.TextScaled = true
+c00lkiddsound.TextSize = 14.000
+c00lkiddsound.TextWrapped = true
+
+TextLabel_2.Parent = c00lkiddsound
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(-0.0170454551, 0, 9.60000038, 0)
+TextLabel_2.Size = UDim2.new(0, 182, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "made by ro0lkidd"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextButton.Parent = c00lkiddsound
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.00840880629, 0, 1.11873353, 0)
+TextButton.Size = UDim2.new(0, 199, 0, 402)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "1x1x1x1 luagh"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 50.000
+TextButton.TextWrapped = true
+
+particles.Name = "particles"
+particles.Parent = TextLabel
+particles.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+particles.Position = UDim2.new(0.475000292, 0, 6.88461399, 0)
+particles.Size = UDim2.new(0, 96, 0, 34)
+particles.Font = Enum.Font.SourceSans
+particles.Text = "particles"
+particles.TextColor3 = Color3.fromRGB(0, 0, 0)
+particles.TextScaled = true
+particles.TextSize = 14.000
+particles.TextWrapped = true
+
+skybox.Name = "skybox"
+skybox.Parent = TextLabel
+skybox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+skybox.Position = UDim2.new(0.495000303, 0, 4.8076911, 0)
+skybox.Size = UDim2.new(0, 96, 0, 34)
+skybox.Font = Enum.Font.SourceSans
+skybox.Text = "skybox"
+skybox.TextColor3 = Color3.fromRGB(0, 0, 0)
+skybox.TextScaled = true
+skybox.TextSize = 14.000
+skybox.TextWrapped = true
+
+ImageLabel_2.Parent = ImageLabel
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.181268886, 0, -0.728260875, 0)
+ImageLabel_2.Size = UDim2.new(0, 178, 0, 134)
+ImageLabel_2.Image = "rbxassetid://16432013221"
+
+-- Scripts:
+
+local function WOVGEFS_fake_script() -- decalspam.Script 
+	local script = Instance.new('Script', decalspam)
+
+	function click()
+		function exPro(root)
+			for _, v in pairs(root:GetChildren()) do
+				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=14544946503" then
+					v.Parent = nil
+				elseif v:IsA("BasePart") then
+					v.Material = "Plastic"
+					v.Transparency = 0
+					local One = Instance.new("Decal", v)
+					local Two = Instance.new("Decal", v)
+					local Three = Instance.new("Decal", v)
+					local Four = Instance.new("Decal", v)
+					local Five = Instance.new("Decal", v)
+					local Six = Instance.new("Decal", v)
+					One.Texture = "http://www.roblox.com/asset/?id=14544946503"
+					Two.Texture = "http://www.roblox.com/asset/?id=14544946503"
+					Three.Texture = "http://www.roblox.com/asset/?id=14544946503"
+					Four.Texture = "http://www.roblox.com/asset/?id=14544946503"
+					Five.Texture = "http://www.roblox.com/asset/?id=14544946503"
+					Six.Texture = "http://www.roblox.com/asset/?id=14544946503"
+					One.Face = "Front"
+					Two.Face = "Back"
+					Three.Face = "Right"
+					Four.Face = "Left"
+					Five.Face = "Top"
+					Six.Face = "Bottom"
+				end
+				exPro(v)
+			end
+		end
+		function asdf(root)
+			for _, v in pairs(root:GetChildren()) do
+				asdf(v)
+			end
+		end
+		exPro(game.Workspace)
+		asdf(game.Workspace)
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+	
+end
+coroutine.wrap(WOVGEFS_fake_script)()
+local function TVRDXEE_fake_script() -- music.Script 
+	local script = Instance.new('Script', music)
+
+	function onClick()
+		Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://1847661821" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+	
+end
+coroutine.wrap(TVRDXEE_fake_script)()
+local function HYYXCYP_fake_script() -- tubers93sound.Script 
+	local script = Instance.new('Script', tubers93sound)
+
+	function onClick()
+		Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://6129291390" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+	
+	
+end
+coroutine.wrap(HYYXCYP_fake_script)()
+local function RUVT_fake_script() -- ro0lkiddtheme.Script 
+	local script = Instance.new('Script', ro0lkiddtheme)
+
+	function onClick()
+		Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://142376088" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+	
+end
+coroutine.wrap(RUVT_fake_script)()
+local function MUDUZZW_fake_script() -- tubershint.Script 
+	local script = Instance.new('Script', tubershint)
+
+	script.Parent.MouseButton1Down:connect(click)
+	
+	--hint
+	script.Parent.MouseButton1Click:Connect(function()
+		local m = Instance.new("Hint", game.workspace)
+		m.Text = "tubers 93 has hacked your game"
+	end)
+	
+	
+end
+coroutine.wrap(MUDUZZW_fake_script)()
+local function DPCZEO_fake_script() -- k00ptheme.Script 
+	local script = Instance.new('Script', k00ptheme)
+
+	function onClick()
+		Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://1839246711" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+	
+end
+coroutine.wrap(DPCZEO_fake_script)()
+local function ASXWIAE_fake_script() -- c00lkiddsound.Script 
+	local script = Instance.new('Script', c00lkiddsound)
+
+	function onClick()
+		Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://138081566" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+	
+	
+end
+coroutine.wrap(ASXWIAE_fake_script)()
+local function YISCB_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	function onClick()
+		Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://35935204" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()
+	end
+	
+	script.Parent.MouseButton1Down:connect(onClick)
+	
+end
+coroutine.wrap(YISCB_fake_script)()
+local function MQPUPHC_fake_script() -- particles.Script 
+	local script = Instance.new('Script', particles)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		for i, v in pairs(game.Players:GetChildren()) do
+			emit = Instance.new("ParticleEmitter")
+			emit.Parent = v.Character.Head
+			emit.Texture = "http://www.roblox.com/asset/?id=12600860108"
+			emit.VelocitySpread = 100000
+		end
+	end)
+	
+end
+coroutine.wrap(MQPUPHC_fake_script)()
+local function KMDYTTX_fake_script() -- skybox.Script 
+	local script = Instance.new('Script', skybox)
+
+	function click()
+		s = Instance.new("Sky")
+		s.Name = "Sky"
+		s.Parent = game.Lighting
+		s.SkyboxBk = "http://www.roblox.com/asset/?id=8595285721"
+		s.SkyboxDn = "http://www.roblox.com/asset/?id=8595285721"
+		s.SkyboxFt = "http://www.roblox.com/asset/?id=8595285721"
+		s.SkyboxLf = "http://www.roblox.com/asset/?id=8595285721"
+		s.SkyboxRt = "http://www.roblox.com/asset/?id=8595285721"
+		s.SkyboxUp = "http://www.roblox.com/asset/?id=8595285721"
+		game.Lighting.TimeOfDay = 12
+	end
+	
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(KMDYTTX_fake_script)()
+local function NOTS_fake_script() -- ScrollingFrame.drag gui 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = gui:TweenPosition(UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), 'Out', 'Linear', 0, true); -- drag speed
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(NOTS_fake_script)()
